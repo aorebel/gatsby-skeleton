@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "makes",
+  "info": {
+    "name": "Make"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "trucks": {
+      "via": "make",
+      "collection": "truck"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

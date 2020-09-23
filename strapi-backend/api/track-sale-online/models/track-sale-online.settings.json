@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "track_sale_onlines",
+  "info": {
+    "name": "TrackSaleOnline"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "header.header"
+    },
+    "aboutPageContent": {
+      "type": "richtext"
+    },
+    "privacyPageContent": {
+      "type": "richtext"
+    },
+    "termsOfUsePageContent": {
+      "type": "richtext"
+    }
+  }
+}

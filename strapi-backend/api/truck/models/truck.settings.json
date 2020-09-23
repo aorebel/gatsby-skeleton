@@ -1,0 +1,134 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trucks",
+  "info": {
+    "name": "Truck"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "model": {
+      "type": "string",
+      "required": true
+    },
+    "modelYear": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelGVWR": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelGCWR": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelGAWRFront": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelGAWRRear": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelPayload": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelSuspensionType": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelSuspensionCapacity": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelBrakeType": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelBrakesFront": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelBrakesRear": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelTransmission": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelEngine": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelEngineDisplacement": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelEngineHP": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelEngineTorque": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelBatteries": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelFuelTankCapacity": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelWheelbases": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "limitedSlipDifferential": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelPdfCatalogueLink": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelCabType": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "modelColors": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "airCleaners": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "batteryBox": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "bumper": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "make": {
+      "model": "make",
+      "via": "trucks"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bodies",
+  "info": {
+    "name": "Body"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "pdfLink": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "type": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "model": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "subframe": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "floor": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "threshold": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "mounting": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "rearDoor": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "rearFrame": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "roof": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "skins": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "sideWall": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "frontEnd": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "bumper": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "interiorLighting": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "exteriorLighting": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "mudflaps": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "panels": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "cabAccessDoor": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "cabLiner": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "rearFinish": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "liningSides": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "grabHandles": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "sidePanels": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "sideFrame": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "frontWall": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "frontACDoor": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "understructure": {
+      "type": "string",
+      "default": "Not in website"
+    },
+    "sideCurtains": {
+      "type": "string",
+      "default": "Not in website"
+    }
+  }
+}
